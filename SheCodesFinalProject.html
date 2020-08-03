@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sullenflower 🎸</title>
+    <style>
+      html {
+        background-color: #7a7a7a;
+      }
+      h1 {
+        text-align: center;
+        opacity: 0.7;
+        font-size: 60px;
+        font-weight: 800;
+      }
+      h2 {
+        text-align: center;
+        color: #9c2a2e;
+        padding: 0px;
+        font-size: 23px;
+        border-radius: 4px;
+      }
+      img {
+        display: block;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+      p {
+        text-align: center;
+        line-height: 1.5;
+        font-size: 15px;
+        margin: 20px 0 10px;
+      }
+      .container {
+        font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+        max-width: 600px;
+        margin: 0 auto;
+        padding: 15px 60px;
+      }
+      .article {
+        color: #9c2a2e;
+        text-decoration: none;
+        font-size: larger;
+      }
+      .article:hover {
+        cursor: pointer;
+        text-decoration: underline;
+      }
+      button {
+        color: white;
+        display: block;
+        background-color: #f3e16c;
+        margin: 20px auto;
+        font-size: 16px;
+        padding: 12px 20px;
+        border: #f3e16c;
+        border-width: 1cm;
+        border-radius: 8px;
+        box-shadow: 5px 5px 10px rgba(22, 15, 15, 0.5);
+        transition: all 200ms ease-in-out;
+      }
+      button:hover {
+        cursor: pointer;
+        color: #f3e16c;
+        background-color: #b3aeae;
+        border: #f3e16c;
+      }
+      .mylink {
+        text-decoration: none;
+        color: white;
+      }
+      .mylink:hover {
+        text-decoration: underline;
+        cursor: pointer;
+      }
+      .coded {
+        font-family: monospace;
+        color: #f3e16c;
+      }
+      .release {
+        font-size: 13px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <h1>
+        <strong>Sullenflower</strong>
+        <br />
+        🥀🥀🥀
+      </h1>
+      <h2>
+        "Short Hair" EP out now!
+      </h2>
+      <img
+        src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/001/582/original/website.JPG?1594758761"
+        alt="prophoto"
+        width="500"
+      />
+      <p>
+        After a few years of gradually recording in a friends’ basement in
+        Queens, Gabriela Belardi (also known as Sullenflower) has finally made
+        her artist debut with “Short Hair." Born and raised in South Salem, NY,
+        Gabriela grew up running around the woods, swimming in lakes, and
+        exhausting her energy through all things creative. Her father always
+        playing guitar in his free time, and her mother an avid writer, she
+        slowly came to mold both crafts together, and by the age of ten began
+        writing lyrics to melodies in her head. She kept this hobby to herself
+        for most of her childhood never considering it very serious, until
+        taking a summer songwriting workshop at a local college, SUNY Purchase.
+        Here she learned that not only was she very intrigued by songwriting,
+        but she wanted to do it for the rest of her life. Gabriela then went on
+        to study music at the City College of New York where she received a
+        Bachelor of the Arts in Music. While in college she began performing at
+        local venues and with friends in Brooklyn and Manhattan. After
+        reconnecting with a high school friend, she began to record and form a
+        band. Now, with the help of Ian McNally as engineer, her musical
+        writings have reached the internet.
+        <br />
+        <br />
+
+        <a href="https://ffm.to/mx764aq" target="_blank" class="stream">
+          <img
+            src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/001/583/original/short_hair_album_cover.JPG?1594758915"
+            alt="prophoto"
+            width="250"
+          />
+        </a>
+      </p>
+      <p class="release">
+        <em>Released on April 4, 2020</em>
+      </p>
+
+      <p>
+        Contributions to Short Hair: Ian McNally(prodcution,
+        synth,guitar,violin, cello), Daniel Bloch (drums, bass, keys, synth,
+        percussion), John Mason (drums, synth), Sammy Mellman (trombone),
+        Defiant Audio (mix, master)
+      </p>
+      <p>
+        <a
+          href="https://sweetstatic.com/community-roundup/new-release-in-time-of-covid-19/"
+          target="_blank"
+          class="article"
+        >
+          <strong>Sweet Static Article</strong></a
+        >
+      </p>
+      <br />
+      <button class="contact">
+        Contact
+      </button>
+      <p class="coded">
+        Coded by
+        <a
+          href="https://www.instagram.com/gabbbela/"
+          target="_blank"
+          class="mylink"
+        >
+          <em>Gabriela Belardi</em>
+        </a>
+      </p>
+    </div>
+    <script>
+      function contactinfo() {
+        let name = prompt("What is your name?");
+        let email = prompt("What is your email?");
+        if (name.length > 0 && email.length > 0) {
+          alert("Thank you " + name + "! Sullenflower will be in touch soon!");
+        }
+      }
+      let contact = document.querySelector(".contact");
+      contact.addEventListener("click", contactinfo);
+    </script>
+  </body>
+</html>
